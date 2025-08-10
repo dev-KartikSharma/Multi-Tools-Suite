@@ -7,7 +7,7 @@ import io
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Mini Tool Suite",
+    page_title="Mulit-Tool Suite",
     page_icon="🛠️",
     layout="wide"
 )
@@ -53,7 +53,7 @@ with st.sidebar:
 
 # --- Home Page ---
 def home_page():
-    st.markdown("<h1 style='text-align: center;'>Mini Tool Suite 🛠️</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Multi Tool Suite 🛠️</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px;'>Your one-stop shop for simple document and image tasks.</p>", unsafe_allow_html=True)
     st.divider()
 
